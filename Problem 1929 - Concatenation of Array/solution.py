@@ -1,5 +1,5 @@
 class Solution:
-    def getConcatenation(self, nums: List[int]) -> List[int]:
+    def getConcatenation(self, nums: list[int]) -> list[int]:
         length = len(nums)
 
         ans = [None] * (length * 2)
